@@ -48,7 +48,6 @@ p {
   text-decoration: none;
 }
 
-
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -92,5 +91,41 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 375px) {
+
+  .small-photo {
+    display: none;
+  } 
+
+  .primary-link {
+ border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  }
+
+  body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: -25px;
+  }
+  h2 {
+    font-size: 38px;
+    margin-top: -25px;
+
+  }
+
+  .col-6 {
+    margin-top: -85px;
+    width:100%;		
+  }
 }
 
